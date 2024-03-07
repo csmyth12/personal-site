@@ -1,9 +1,11 @@
 "use client"
 
 import { Header } from "@/components/Header";
+import { MindMap } from "@/components/MindMap/MindMap";
+import { Section } from "@/components/Section";
 import { Stats } from "@/components/Stats";
 import { Text } from "@/components/Text";
-import { Timeline } from "@/components/Timeline";
+import { Timeline } from "@/components/Timeline/Timeline";
 import { useFetch } from "@/hooks/useFetch";
 import { QueryClient, QueryClientProvider } from "react-query";
 
@@ -12,16 +14,27 @@ export default function Home() {
   
   return (
     <QueryClientProvider client={queryClient}>
-    <Header>Conor Smyth</Header>
-    <Text>
-      I am a frontend developer with 5 years experience across digital marketing, fintech, and the restaurant industry. 
-      My main tech stack is React, GraphQL, Apollo, Typescript, Tailwind, and Node JS. 
-      I also have experience with Angular, Redux, Sass, Java, REST.
+      <div className='h-screen w-full overflow-scroll snap-mandatory snap-y mx:auto'>
+        <Section color='bg-indigo-600'>
+          <Header>Conor Smyth</Header>
+        </Section>
+        <Section>
+          <Text>
+            I am a frontend developer with 5 years experience across digital marketing, fintech, and the restaurant industry. 
+            My main tech stack is React, GraphQL, Apollo, Typescript, Tailwind, and Node JS. 
+            I also have experience with Angular, Redux, Sass, Java, REST.
 
-      I have worked across multiple agile environments and have worn the hat of multiple different roles in an agile team other than just developer. 
-      I have eperience with BDD development and writing my own automated test code.
-    </Text>
-    <Timeline />
-    <Stats />
-  </QueryClientProvider>);
+            I have worked across multiple agile environments and have worn the hat of multiple different roles in an agile team other than just developer. 
+            I have eperience with BDD development and writing my own automated test code.
+          </Text>
+        </Section>
+        <Section color="bg-indigo-50">
+          <Timeline />
+        </Section>
+        <Section>
+          <MindMap />
+        </Section>
+      </div>
+    </QueryClientProvider>
+  );
 }

@@ -1,15 +1,12 @@
 import React, { ReactNode, useEffect, useState } from "react"
 //@ts-ignore
 import { UilAngleLeft, UilAngleRight } from '@iconscout/react-unicons'
-import { useFetch } from "@/hooks/useFetch"
 
 interface CarouselProps {
     children: ReactNode[]
 }
 
 export const Carousel: React.FunctionComponent<CarouselProps> = ({ children }) => {
-    const data = useFetch()
-
     const [visibleIndex, setVisibleIndex] = useState(0)
     const [visible, setVisible] = useState(children[visibleIndex])
 

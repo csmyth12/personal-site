@@ -12,7 +12,12 @@ const config: Config = {
     ...timelineColors.map(colour => `bg-${colour}`),
     ...timelineColors.map(colour => `border-${colour}`),
     ...timelineColors.map(colour => `text-${colour}`),
-    ...timelineColors.map(colour => `hover:bg-${colour}`)
+    ...timelineColors.map(colour => `hover:bg-${colour}`),
+    'text-lg',
+    'text-xl',
+    'text-2xl',
+    'ease-out',
+    'hover:ease-in'
   ],
   theme: {
     extend: {
@@ -22,6 +27,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "banner-barretstown": "url('../images/barretstownbanner.png')",
       },
+      gridTemplateRows: {
+        "masonry": "masonry"
+      }
     },
   },
   plugins: [],
