@@ -1,6 +1,6 @@
 export const technologies = [{
     name: 'React',
-    weight: '2xl'
+    weight: '2xl',
 },
 {
     name: 'Angular',

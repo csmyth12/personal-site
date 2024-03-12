@@ -12,14 +12,14 @@ export const MapEntry: FunctionComponent<MapEntryProps> = ({tech}) => {
     }
 
     return (
-        <button 
+        <div 
             className={
                 `m-2 text-center text-${tech.weight} ${getRandomPadding()}`
                 + ' transition ease-in-out duration-100 md:hover:scale-125'
-                + ' hover:bg-slate-50 rounded-md'
+                + ' flex flex-col justify-center'
             }
         >
             {tech.name}
-        </button>
+        </div>
     )
 }

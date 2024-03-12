@@ -3,7 +3,6 @@
 import { Header } from "@/components/Header";
 import { MindMap } from "@/components/MindMap/MindMap";
 import { Section } from "@/components/Section";
-import { Stats } from "@/components/Stats";
 import { Text } from "@/components/Text";
 import { Timeline } from "@/components/Timeline/Timeline";
 import { useFetch } from "@/hooks/useFetch";
@@ -14,7 +13,7 @@ export default function Home() {
   
   return (
     <QueryClientProvider client={queryClient}>
-      <div className='h-screen w-full overflow-scroll snap-mandatory snap-y mx:auto'>
+      <div className='h-screen w-full overflow-y-scroll snap-mandatory snap-y'>
         <Section color='bg-indigo-600'>
           <Header>Conor Smyth</Header>
         </Section>

@@ -7,7 +7,7 @@ interface TextProps {
 
 export const Text: FunctionComponent<TextProps> = ({ children }) => (
     <div className='w-full h-screen flex flex-col justify-center items-center'>
-        <p className='mx-8 text-justify text-md md:text-2xl h-1/2'>
+        <p className='mx-8 text-justify max-w-[50%] text-md md:text-2xl'>
             {children}
         </p>
     </div>
