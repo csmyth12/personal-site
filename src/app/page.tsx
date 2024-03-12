@@ -19,12 +19,9 @@ export default function Home() {
         </Section>
         <Section>
           <Text>
-            I am a frontend developer with 5 years experience across digital marketing, fintech, and the restaurant industry. 
-            My main tech stack is React, GraphQL, Apollo, Typescript, Tailwind, and Node JS. 
-            I also have experience with Angular, Redux, Sass, Java, REST.
-
-            I have worked across multiple agile environments and have worn the hat of multiple different roles in an agile team other than just developer. 
-            I have eperience with BDD development and writing my own automated test code.
+            I am a frontend developer with five years of hands-on experience spanning digital marketing, fintech, and the restaurant industry. My expertise lies in React, GraphQL, Apollo, Typescript, Tailwind, and Node.js, forming the backbone of my tech stack. Moreover, I bring proficiency in Angular, Redux, Sass, Java, and REST to the table.
+            <br />
+            In addition to my technical prowess, I have thrived in agile environments, where I have seamlessly transitioned between roles beyond traditional development responsibilities. I have a solid foundation in Behavior-Driven Development (BDD) and have honed my skills in crafting automated test code to ensure robust solutions.
           </Text>
         </Section>
         <Section color="bg-indigo-50">
