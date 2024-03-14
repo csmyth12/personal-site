@@ -1,3 +1,8 @@
+import Image from "next/image"
+import Fistbump from '../images/fistbump.jpeg'
+import ConorAndSean from '../images/ConorAndSean.jpeg'
+import Dancing from '../images/Dancing.jpeg'
+import ConorAndCaelan from '../images/ConorAndCaelan.jpg'
 import { Carousel } from "./Carousel"
 import { Spiel } from "./Spiel"
 
@@ -12,24 +17,32 @@ export const Outreach = () => (
         </div>
         <div className='flex flex-col justify-center items-center mx-4'>
             <Carousel>
-                <img 
-                    src='/images/fistbump.jpeg' 
-                    alt='Conor volunteering with a Barretstown camper' 
+                <Image 
+                    src={Fistbump} 
+                    alt='Conor volunteering with a Barretstown camper'
+                    width={550}
+                    height={300}
                     className='rounded-lg h-[300px] w-[550px]' 
                 />
-                <img 
-                    src='/images/ConorAndSean.jpeg'
+                <Image 
+                    src={ConorAndSean}
                     alt='Conor and a fellow volunteer' 
+                    width={550}
+                    height={300}
                     className='rounded-lg h-[300px] w-[550px]' 
                 />
-                <img 
-                    src='/images/Dancing.jpeg' 
+                <Image 
+                    src={Dancing}
                     alt='Conor dancing at camp'
+                    width={550}
+                    height={300}
                     className='rounded-lg h-[300px] w-[550px]'
                 />
-                <img 
-                    src='/images/ConorAndCaelan.jpg'
+                <Image 
+                    src={ConorAndCaelan}
                     alt='Conor and his brother, Caelan, at Barretstown Castle'
+                    width={550}
+                    height={300}
                     className='rounded-lg h-[300px] w-[550px]'
                 />
             </Carousel>
