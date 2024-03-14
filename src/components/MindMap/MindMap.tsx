@@ -7,7 +7,7 @@ export const MindMap = () => (
         <div className='w-1/3'>
             <Spiel title='Technologies'>
                 <p className="text-lg text-justify">
-                    Throughout my 5 year career, I've had the opportunity to work with multilpe technologies and work styles in different environments. Here's a look at some of those skills
+                    Throughout my 5 year career, I&#39;ve had the opportunity to work with multilpe technologies and work styles in different environments. Here&#39;s a look at some of those skills
                 </p>
             </Spiel>
         </div>
