@@ -12,7 +12,7 @@ export const Timeline = () => {
         { year: '2024', title: 'Move to London', description: 'This is where you come in.' }
     ]
     return (
-        <div className='h-fit lg:h-screen w-full'>
+        <div className='h-fit lg:h-screen w-full lg:px-40'>
             <div className="flex lg:hidden flex-col py-8 h-full justify-center">
                 {chunks.map((chunk, index) => {
                     return (
@@ -20,7 +20,7 @@ export const Timeline = () => {
                     )
                 })}
             </div>
-            <div className='hidden lg:flex flex-row justify-center px-4 xl:px-12 h-full'>
+            <div className='hidden lg:flex flex-row justify-center h-full'>
                 {chunks.map((chunk, index) => {
                     return (
                         <DesktopTimelineEntry key={chunk.year} chunk={chunk} index={index} />
