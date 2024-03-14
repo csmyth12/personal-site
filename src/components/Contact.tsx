@@ -10,7 +10,7 @@ export const Contact = () => (
                 <p className='text-lg my-2'>Phone: <a href='tel:00353894892415' className='text-indigo-700 hover:text-indigo-950'>+353 89 489 2415</a></p>
                 <div className='flex flex-row items-center justify-center my-2'>
                     <p className='text-lg mr-2'>Checkout my resume: </p>
-                    <a href='/ConorSmyth_CV_2024.pdf' download='ConorSmytth_CV.pdf' className='text-indigio-700 hover:text-indigo-950'>
+                    <a href='/ConorSmyth_CV_2024.pdf' download='ConorSmytth_CV.pdf' className='text-indigo-700 hover:text-indigo-950'>
                         <UilFileDownload />
                     </a>
                 </div>
