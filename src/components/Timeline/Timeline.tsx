@@ -13,7 +13,7 @@ export const Timeline = () => {
     ]
     return (
         <div className='h-fit lg:h-screen w-full lg:px-40'>
-            <div className="flex lg:hidden flex-col py-8 h-full justify-center">
+            <div className="flex lg:hidden flex-col h-full justify-center">
                 {chunks.map((chunk, index) => {
                     return (
                         <MobileTimelineEntry key={chunk.year} chunk={chunk} index={index} />
