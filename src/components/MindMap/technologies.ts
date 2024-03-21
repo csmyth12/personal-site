@@ -51,7 +51,7 @@ export const technologies = [{
     weight: '2xl'
 },
 {
-    name: 'SPAs',
+    name: 'NextJS',
     weight: 'xl'
 },
 {

@@ -4,6 +4,7 @@ import { Contact } from "@/components/Contact";
 import { Header } from "@/components/Header";
 import { MindMap } from "@/components/MindMap/MindMap";
 import { Outreach } from "@/components/Outreach";
+import { Projects } from '@/components/Projects';
 import { ScrollBar } from "@/components/ScrollBar";
 import { Section } from "@/components/Section";
 import { Timeline } from "@/components/Timeline/Timeline";
@@ -26,9 +27,12 @@ export default function Home() {
           <MindMap />
         </Section>
         <Section>
-          <Outreach />
+          <Projects />
         </Section>
         <Section color='bg-indigo-50'>
+          <Outreach />
+        </Section>
+        <Section color='bg-indigo-100'>
           <Contact />
         </Section>
       </div>
