@@ -11,9 +11,9 @@ export const Outreach = () => (
     <div className="h-full w-full flex flex-col justify-around lg:flex-row lg:justify-between items-center px-20 md:px-40">
         <div className='w-full lg:w-1/3'>
             <Spiel title='Outreach'>
-                <p className='text-lg text-justify w-full'>
+                <>
                     Over the past 3 years, I have spent over 500 hours volunteering with <Link href='https://barretstown.org/' target="_blank">Barretstown</Link>, a <Link href='https://seriousfun.org/' target='_blank'>SeriousFun</Link> camp in Ireland for children with serious illnesses and their families.
-                </p>
+                </>
             </Spiel>
         </div>
         <div className='flex flex-col justify-center items-center mx-4'>

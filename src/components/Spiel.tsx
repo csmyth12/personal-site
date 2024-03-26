@@ -1,7 +1,7 @@
 import { FunctionComponent, ReactElement } from "react"
 
 export interface SpielProps {
-    children: ReactElement,
+    children: ReactElement | string,
     title: string
 }
 
