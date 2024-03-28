@@ -11,7 +11,7 @@ interface MobileTimelineEntryProps {
 export const MobileTimelineEntry: FunctionComponent<MobileTimelineEntryProps> = ({ chunk, index }) => {
     const [modalIsOpen, setModalIsOpen] = useState(false)
     return (
-        <div className={`flex flex-col justify-center h-32 items-center`}>
+        <div className={`flex flex-col justify-center h-[7.5rem] items-center`}>
             <div className={`h-full w-0 border-2 border-${timelineColors[index]} bg-${timelineColors}`} />
             <button className={
                 `text-xl text-center border-2 rounded-full h-24 w-24 px-3 py-8 bg-indigo-50 text-${timelineColors[index]} border-${timelineColors[index]} hover:bg-${timelineColors[index]} hover:text-white`

@@ -4,7 +4,7 @@ import { Spiel } from './Spiel'
 import { Link } from './Link'
 
 export const Contact = () => (
-    <div className='flex flex-col h-full w-full justify-around items-center px-20 md:justify-between md:flex-row md:px-40'>
+    <div className='flex flex-col h-full w-full justify-center items-center px-20 md:justify-between md:flex-row md:px-40'>
         <div className='w-full md:w-1/3'>
             <Spiel title='Contact'>
                 I am currently seeking new opportunities. If you liked anything you saw here and would like to get in touch, please feel free to contact me or save my resume for a future date.

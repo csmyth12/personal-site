@@ -8,8 +8,8 @@ import { Spiel } from "./Spiel"
 import { Link } from './Link'
 
 export const Outreach = () => (
-    <div className="h-full w-full flex flex-col justify-around lg:flex-row lg:justify-between items-center px-20 md:px-40">
-        <div className='w-full lg:w-1/3'>
+    <div className="h-full w-full flex flex-col justify-around lg:flex-row lg:justify-between items-center md:px-40">
+        <div className='w-full lg:w-1/3 px-20 lg:p-0'>
             <Spiel title='Outreach'>
                 <>
                     Over the past 3 years, I have spent over 500 hours volunteering with <Link href='https://barretstown.org/' target="_blank">Barretstown</Link>, a <Link href='https://seriousfun.org/' target='_blank'>SeriousFun</Link> camp in Ireland for children with serious illnesses and their families.

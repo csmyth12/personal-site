@@ -1,4 +1,3 @@
-import { MutableRefObject, UIEventHandler, useRef, useState } from 'react'
 import { Contact } from './Contact'
 import { Header } from './Header'
 import { MindMap } from './MindMap/MindMap'
